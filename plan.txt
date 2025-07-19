@@ -1,0 +1,44 @@
+# CREATE A WEBPAGE WITH A 16X16 GRID OF SQUARE DIVS.
+
+Create a container div in the main HTML. Is should be 960 square pixels. I should also put padding: 0 for this and make box-sizing: border-box for this and all other divs. I guess i'll just make it a CSS reset at the top of the page.
+
+I'm thinking of a function that takes in the number of squares the user wants.
+
+It will append that "x" number of new divs to the container div.
+And then for each of these new divs, also add "x" number of divs in them but this time they'll be displayed with flex so that they are horizontal instead of vertical.
+
+Also apply margin: 0 and border: 1px solid black(or any other color) to all the grid divs.
+
+I'm wondering if a style that is in my CSS can style elements that are being created as dynamically with JS as the program runs.
+
+# SET UP A “HOVER” EFFECT SO THAT THE GRID DIVS CHANGE COLOR WHEN YOUR MOUSE PASSES OVER THEM, LEAVING A (PIXELATED) TRAIL THROUGH YOUR GRID LIKE A PEN WOULD.
+
+I think that first off, all divs would have the same event listener function attached to them. This might have to happen in the loop too perhaps.
+
+This event listener will make sure to change the colours only when the user wants and in this case when they keydown.(Hold down the left key and drag it.)
+
+But instead of just changing color, I think I like that one that someone else did where you can choose the color you want and then press down to actually draw, changing the color as you want.
+
+I think i'll implement this by changing the divs' background color to the color selected before the start of the sketch. I think this will make it's way to the event listener too.
+
+**This is an aside but I just think that adding a new class to a div for the purpose of changing color will not be very effective or scalable(Maybe I'm wrong)
+
+# ADD A BUTTON ON THE TOP OF THE SCREEN THAT WILL SEND THE USER A POPUP ASKING FOR THE NUMBER OF SQUARES PER SIDE FOR THE NEW GRID. ONCE ENTERED, THE EXISTING GRID SHOULD BE REMOVED, AND A NEW GRID SHOULD BE GENERATED IN THE SAME TOTAL SPACE AS BEFORE (E.G., 960PX WIDE) SO THAT YOU’VE GOT A NEW SKETCH PAD.
+
+Okay. So a button that displays a prompt when clicked. I'll indicate that the limit is 100 and if anyone enters a higher number, i'll display a message that tells them they are above the limit and then re-prompts them. This is where i'll get the argument for the function i'll write in line 5. 
+
+I think I've already taken care of the plans for the rest.
+
+# RATHER THAN SQUARES BEING THE SAME COLOR THROUGHOUT THE GRID, RANDOMIZE THE SQUARES’ RGB VALUES WITH EACH INTERACTIOn.
+
+# ADDITIONALLY, IMPLEMENT A PROGRESSIVE DARKENING EFFECT WHERE EACH INTERACTION DARKENS THE SQUARE BY 10%. THE GOAL IS TO ACHIEVE A FULLY BLACK (OR COMPLETELY COLORED) SQUARE IN ONLY TEN INTERACTIONS
+
+I don't think I'll implement these last 2 because they interfere with the plan I have for the project.
+
+However, I'll think about the process so that I can do it if I wished.
+
+
+
+
+
+<kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>U</kbd>
