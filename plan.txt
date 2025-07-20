@@ -27,6 +27,8 @@ I think i'll implement this by changing the divs' background color to the color 
 
 **This is an aside but I just think that adding a new class to a div for the purpose of changing color will not be very effective or scalable(Maybe I'm wrong)
 
+-----------------------------------------------------------------DONE--------------------------------------------------------------
+
 # ADD A BUTTON ON THE TOP OF THE SCREEN THAT WILL SEND THE USER A POPUP ASKING FOR THE NUMBER OF SQUARES PER SIDE FOR THE NEW GRID. ONCE ENTERED, THE EXISTING GRID SHOULD BE REMOVED, AND A NEW GRID SHOULD BE GENERATED IN THE SAME TOTAL SPACE AS BEFORE (E.G., 960PX WIDE) SO THAT YOU’VE GOT A NEW SKETCH PAD.
 
 Okay. So a button that displays a prompt when clicked. I'll indicate that the limit is 100 and if anyone enters a higher number, i'll display a message that tells them they are above the limit and then re-prompts them. This is where i'll get the argument for the function i'll write in line 5. 
