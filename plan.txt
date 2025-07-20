@@ -11,6 +11,10 @@ Also apply margin: 0 and border: 1px solid black(or any other color) to all the 
 
 I'm wondering if a style that is in my CSS can style elements that are being created as dynamically with JS as the program runs.
 
+
+--------------------------------------------------------------DONE-----------------------------------------------------------------
+
+
 # SET UP A “HOVER” EFFECT SO THAT THE GRID DIVS CHANGE COLOR WHEN YOUR MOUSE PASSES OVER THEM, LEAVING A (PIXELATED) TRAIL THROUGH YOUR GRID LIKE A PEN WOULD.
 
 I think that first off, all divs would have the same event listener function attached to them. This might have to happen in the loop too perhaps.
@@ -37,7 +41,7 @@ I don't think I'll implement these last 2 because they interfere with the plan I
 
 However, I'll think about the process so that I can do it if I wished.
 
-
+In the end, i'll put it in what looks like a real Etch-A-Sketch frame.
 
 
 
